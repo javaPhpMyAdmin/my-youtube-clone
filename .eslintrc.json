@@ -21,6 +21,7 @@
   },
   "plugins": ["react", "@typescript-eslint"],
   "rules": {
-    "eslint-disable-next-line react/display-name": "off"
+    "eslint-disable-next-line react/display-name": "off",
+    "prettier/prettier": ["error", { "endOfLine": "auto" }]
   }
 }
