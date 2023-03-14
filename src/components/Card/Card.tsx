@@ -2,7 +2,6 @@ import { HomePageVideos } from '@/Types';
 import { Link } from 'react-router-dom';
 
 export default function Card({ data }: { data: HomePageVideos }) {
-  const isData = data ? true : false;
   return (
     <div className="w-100 h-60 flex gap-3 flex-col">
       <div className="relative">
