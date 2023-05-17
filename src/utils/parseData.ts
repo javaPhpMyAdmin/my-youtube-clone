@@ -65,7 +65,7 @@ export const parseData = async (items: any[]) => {
       ) => {
         const { image: channelImage } = parsedChannelsData.find(
           (data) => data.id === item.snippet.channelId
-        )!;
+        );
         if (channelImage)
           parsedData.push({
             videoId: item.id.videoId,

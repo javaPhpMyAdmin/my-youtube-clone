@@ -8,7 +8,6 @@ import {
   MdOutlineWatchLater,
   MdThumbUpOffAlt,
   MdSettings,
-  MdOutlineFlag,
   MdOutlineHelpOutline,
   MdOutlineFeedback,
   MdOutlineSportsVolleyball,
@@ -186,7 +185,7 @@ export default function SlideBar() {
       <span className="px-4 text-sm text-zinc-400">&copy; 2023 Google</span>
       <br />
       <p className="px-4 pt-3 text-sm text-zinc-400">
-        This clone is only for educational purpose only
+        This clone is only for educational purpose only by Marcelo Batista
       </p>
     </div>
   );
